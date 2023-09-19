@@ -24,6 +24,9 @@ persist.debug.ftrace_events_disable=Yes
 # Disable Skia tracing by default
 debug.hwui.skia_atrace_enabled=false
 
+# DroidX Maintainer
+ro.droidx.maintainer=SMGLaboratory
+
 # FEAS
 ro.feas.enable=true
 
@@ -100,6 +103,3 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 # Xiaomi
 ro.miui.notch=1
 ro.product.mod_device=marble_global
-
-# Spark
-ro.spark.maintainer=SMGLaboratory
