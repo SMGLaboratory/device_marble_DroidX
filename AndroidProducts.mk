@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_marble.mk
+    $(LOCAL_DIR)/droidx_marble.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_marble-eng \
-    spark_marble-userdebug \
-    spark_marble-user
+    droidx_marble-eng \
+    droidx_marble-userdebug \
+    droidx_marble-user
