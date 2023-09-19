@@ -200,6 +200,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
 
+# Fwk-detect
+PRODUCT_PACKAGES += \
+    libqti_vndfwk_detect \
+    libqti_vndfwk_detect.vendor \
+    libvndfwk_detect_jni.qti \
+    libvndfwk_detect_jni.qti.vendor
+
 # F2FS utilities
 PRODUCT_PACKAGES += \
     sg_write_buffer \
@@ -474,10 +481,10 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.3.vendor \
     android.hardware.radio.deprecated@1.0.vendor
 
-PRODUCT_PACKAGES += \
-    Ims \
-    QtiTelephony \
-    qti-telephony-common
+#PRODUCT_PACKAGES += \
+#    Ims \
+#    QtiTelephony \
+#    qti-telephony-common
 
 # Rootdir
 PRODUCT_PACKAGES += \
